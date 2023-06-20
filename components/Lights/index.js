@@ -15,28 +15,28 @@ export default function Lights() {
   return (
     <StyledLights>
       <li>
-        <Light name="Living Room" />
+        <Light name="Living Room" onToggle={() => handleToggle(light.id)}/>
       </li>
       <li>
-        <Light name="Kitchen" />
+        <Light name="Kitchen" onToggle={() => handleToggle(light.id)}/>
       </li>
       <li>
-        <Light name="Bedroom" />
+        <Light name="Bedroom" onToggle={() => handleToggle(light.id)}/>
       </li>
       <li>
-        <Light name="Bathroom" />
+        <Light name="Bathroom" onToggle={() => handleToggle(light.id)}/>
       </li>
       <li>
-        <Light name="Garage" />
+        <Light name="Garage" onToggle={() => handleToggle(light.id)}/>
       </li>
       <li>
-        <Light name="Porch" />
+        <Light name="Porch" onToggle={() => handleToggle(light.id)}/>
       </li>
       <li>
-        <Light name="Garden" />
+        <Light name="Garden" onToggle={() => handleToggle(light.id)}/>
       </li>
       <li>
-        <Light name="Office" />
+        <Light name="Office" onToggle={() => handleToggle(light.id)}/>
       </li>
     </StyledLights>
   );
